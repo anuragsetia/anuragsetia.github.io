@@ -1,0 +1,15 @@
+plugins:
+  - jekyll-include-cache
+theme: minima
+
+site.title: Texploring
+site.author.name: Anurag Setia
+title: Texploring
+description: "Anurag Setia's technology blog"
+
+header_pages:
+  - about.md
+  - covid19.md
+show_excerpts: true
+
+google_analytics: G-J80TT227HM
