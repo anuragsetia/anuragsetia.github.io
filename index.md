@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: home
-list_title: 
+list_title: All Posts
 ---
 
 I am a technology professional based in India. This blog is snapshots from my journey exploring technology. While Information Technology is the central theme of this blog, is is the case of my career, my exploration is not limited to just that.
@@ -20,4 +20,3 @@ Besides writing, I click pictures of the world around me. Here's a sample
 
 [COVID19 India Growth Analysis](2020/05/13/covid19-india-growth-analysis)
 
-If you want to see more of my writing, here is all of my posts.
