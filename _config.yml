@@ -5,7 +5,7 @@ theme: minima
 site.title: Texploring
 site.author.name: Anurag Setia
 title: Texploring
-description: "Anurag Setia's technology blog"
+description: "Anurag Setia's blog about technology and some..."
 
 header_pages:
   - about.md

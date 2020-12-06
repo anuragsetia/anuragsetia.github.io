@@ -10,7 +10,9 @@ Besides writing, I click pictures of the world around me. Here's a sample
 
 ![Sample](resources/path.jpg)
 
-Here are some of my popular posts -
+## Featured
+
+[Quick Analysis of 2020 Farm Bills passed by NDA Government](https://www.setia.in/2020/10/04/farm-bills-assessment.html)
 
 [Effective Web Performance Testing](2019/08/15/effective-web-performance-testing)
 
@@ -18,4 +20,4 @@ Here are some of my popular posts -
 
 [COVID19 India Growth Analysis](2020/05/13/covid19-india-growth-analysis)
 
-If you want to see more of my wriring, here is all of my posts.
+If you want to see more of my writing, here is all of my posts.
