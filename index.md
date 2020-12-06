@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: home
-list_title: All posts
+list_title: 
 ---
 
 I am a technology professional based in India. This blog is snapshots from my journey exploring technology. While Information Technology is the central theme of this blog, is is the case of my career, my exploration is not limited to just that.
