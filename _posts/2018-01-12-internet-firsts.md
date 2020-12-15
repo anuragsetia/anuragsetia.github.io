@@ -21,6 +21,8 @@ Cleaning email archives over the weekend, came across emails from my first email
 | Streaming (video) | YouTube (?)						|
 | Internet Banking	| ICICI (2004)						|
 | Online Shopping	| deals2buy.com (2004)				|
+|Social Media | Orkut (2003)|
+|Cloud Platform |AWS (~2010)|
 
 
 Will add if I recall any others.
