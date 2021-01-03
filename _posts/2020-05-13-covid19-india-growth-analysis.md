@@ -10,7 +10,7 @@ tags:
 ---
 Started this article as a periodic report and my analysis of COVID-19 in India. I chose to focus on the rate of growth with daily resolution deeming it to a key indicator of progression and control; having observed the trends of some of the countries which are closer to recovery. Daily growth rate is nothing but new cases being reported in relation to the existing number of cases.
 
-Updated Live Dashboards are not available at **<https://www.setia.in/covid19/>**. This include charts depicting Total cases in India along with 5-Day Moving Average of Confirmed Cases Growth Rate. Also includes chart for depicting number of new cases being reported in India daily with its moving average. This can act as an indicator of COVID-19&#8217;s R-0 number in India. This also helps see notice trends around specific events and changes. The other line reports daily recoveries in India.
+Updated Live Dashboards are not available at **<https://www.setia.in/covid19>**. This include charts depicting Total cases in India along with 5-Day Moving Average of Confirmed Cases Growth Rate. Also includes chart for depicting number of new cases being reported in India daily with its moving average. This can act as an indicator of COVID-19&#8217;s R-0 number in India. This also helps see notice trends around specific events and changes. The other line reports daily recoveries in India.
 
 
 ![New cases](/resources/new.png)
