@@ -5,7 +5,7 @@ layout: page
 ---
 This is a dashboard for monitoring progress of COVID19 in India. Use the buttons below to access various available charts.
 
-## Total cases trends &#8211; confirmed & active
+## Total active cases trend
 
 This chart depicts the progression of total confirmed cases and total active cases in India over the last 45 days. This is the key one we need to monitor and hope to see the Total Active curve to bend down soon enough.
 
@@ -23,7 +23,6 @@ This depicts the trend of daily new cases being reported and daily recoveries ac
 ### More analysis
 
 [Growth Rate](covid19/growth-rate) | 
-[Active case compared with other countries](covid19/case-progression-comparison) | 
 [State wise statistics](covid19/state-statistics)
 
 ## Commentary

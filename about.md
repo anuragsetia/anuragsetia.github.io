@@ -25,3 +25,16 @@ Here is my presence elsewhere on the internet where I express myself -
 [Github home](https://www.github.com/anuragsetia)
 
 [Tweets by Anuragsetia](https://twitter.com/Anuragsetia)
+
+
+## Owned/Used Computer History
+
+|PC           | Duration    |
+| ----------- | ----------- |
+|Assembled PC | 2000-2005   |
+|Compaq Laptop (forgotten model)| 2005-2010   |
+|Lenovo G410 (still owned)      | 2008-2012   |
+|Lenovo ThinkPad L420           | 2012-2016   |
+|Lenovo ThinkPad L460           | 2017-2020   |
+|Apple Macbook Air              | 2020-2021   |
+|Lenovo Ideapad Flex 5i         | 2021-       |
