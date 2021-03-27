@@ -1,9 +1,11 @@
 ---
-title: Microservices Design Anti-pattern
+title: Microservices Design Anti-patterns
 author: Anurag
 layout: post
 ---
-With the emergance of cloud and cloud-native technologies, Microservices Architecture has surfaced as the default architecture for custom applications including enterprise as well as web applications. One of the keys to realizing microservices architecture is Domain Driven Design to identify microservices for your application domain. While there are plenty of content out there providing guidance as to how to break down your domain into sub-domains and identify your microservices, I try to touch upon a couple of anti-patterns often observed during domain driven design.
+With the emergance of cloud and cloud-native technologies, Microservices Architecture has surfaced as the default architecture for custom applications including enterprise as well as web applications. One of the keys to realizing microservices architecture is Domain Driven Design to identify microservices for your application domain. 
+
+While there are plenty of content out there providing guidance as to how to break down your domain into sub-domains and identify your microservices, I try to touch upon a couple of anti-patterns often observed during domain driven design.
 
 ![Microservices](/resources/microservices-logical.png) 
 Source - [Microsoft Azure documentation](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices)
