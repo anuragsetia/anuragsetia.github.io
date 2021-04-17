@@ -13,7 +13,7 @@ This chart depicts the progression of total active cases in India over the last 
 
 In case you were wondering how we are doing as compared to other countries, here is a comparision with USA's total confirmed cases
 
-![INDIA vs USA](https://eng-origin-275515.el.r.appspot.com/compare-active.png?country=russia)
+![INDIA vs USA](https://eng-origin-275515.el.r.appspot.com/compare-active.png?country=usa)
 
 ## Daily new cases & recoveries
 
