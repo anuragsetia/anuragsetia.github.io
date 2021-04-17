@@ -37,7 +37,7 @@ This depicts the 5-day moving average of the daily growth rate for both total co
 
 This chart depicts the daily average new cases of the Indian states with most cases reported last 5 days.
 
-![](https://eng-origin-275515.el.r.appspot.com/state-top.png) 
+![Top states](https://eng-origin-275515.el.r.appspot.com/state-top.png) 
 
 ### State wise death rate
 
