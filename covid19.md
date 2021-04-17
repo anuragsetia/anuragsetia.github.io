@@ -1,7 +1,7 @@
 ---
 title: COVID19 Dashboard
-author: Anurag
 layout: page
+permalink: /covid19
 ---
 This is a dashboard for monitoring progress of COVID19 in India.
 
