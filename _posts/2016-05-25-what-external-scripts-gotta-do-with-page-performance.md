@@ -1,5 +1,5 @@
 ---
-title: What external scripts gotta do with page performance?
+title: External scripts & their impact on page performance
 author: Anurag Setia
 layout: post
 tags:
