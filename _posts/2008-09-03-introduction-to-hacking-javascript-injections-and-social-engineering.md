@@ -1,5 +1,5 @@
 ---
-title: 'Introduction to Hacking &#8211; Javascript Injections and Social Engineering'
+title: 'Introduction to Hacking - Javascript Injections and Social Engineering'
 author: Anurag Setia
 layout: post
 

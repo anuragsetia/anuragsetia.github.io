@@ -1,5 +1,5 @@
 ---
-title: 'Significance of Server&#8217;s Resource configuration'
+title: 'Significance of Server Resource configuration'
 author: Anurag Setia
 layout: post
 tags:

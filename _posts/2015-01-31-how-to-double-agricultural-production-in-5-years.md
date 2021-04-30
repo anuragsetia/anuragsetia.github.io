@@ -6,4 +6,4 @@ tags:
   - agriculture
   - sushma swaraj
 ---
-[youtube https://www.youtube.com/watch?v=hNreLrYhxYo]
+[![Preview](https://img.youtube.com/vi/hNreLrYhxYo/0.jpg)](https://www.youtube.com/watch?v=hNreLrYhxYo)
