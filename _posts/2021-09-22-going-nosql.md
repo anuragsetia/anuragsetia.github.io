@@ -13,12 +13,14 @@ The default way of designing data models in relational world is by thinking abou
 ### Support for complex data types
 Relational databases only support tabular data however NoSQL has no such limitation and allows you to design or store complex data structures with the same entity. This also includes the ability to store an array within the record. This provides a lot power to design entities and relationship however  you need - both in terms of depth and structure, without spanning it across a number of tables with a bunch of foreign key relationships.
 
+### No referential integrity
+NoSQL databases do not manage relationships between entitities i.e. no foreign keys, no constraints.
+
 ## What does this mean?
 This may sound very liberating however, this only takes data structure out of the equation so you can focus only on decisions around consumption i.e. identify your entities in the applications considering how they are accessed. 
 
-
 ### Relationships & embedding
-A key aspect of this is to take decisions around how relationships are realized. Because NoSQL databases do not manage relationships between entitities i.e. no foreign keys, no constraints therefore they do not support JOINs.
+A key aspect of this is to take decisions around how relationships are realized. Because NoSQL databases do not manage relationships between entitities therefore they do not support JOINs.
 
 Because NoSQL allows storing arrays of data within a record, any 1-n relationships from relational world is also realizable within the same entity in NoSQL world i.e. Embedding. However, its not a thumb rule to embed child entities into parent entities and multiple aspects of this de-normalization need to be considered, mostly around consumption -
 
@@ -29,13 +31,19 @@ Because NoSQL allows storing arrays of data within a record, any 1-n relationshi
 
 When not embedding and storing entities in different collections, you can still have attributes that carry reference to the document of another collection however, these are essentially soft links and there is no referential integrity provided by the NoSQL database. 
 
-In case of n-n relationships, you may hold a reference attribute in both entities to allow navigation in both directions or implement an highly de-nomralized approach where data is embedded as well as stored separately. This will be based on the consumption pattern again.
+In case of n-n relationships, you may hold a reference attribute in both entities to allow navigation in both directions or implement an highly de-nomralized approach where data is embedded as well as stored separately. In a way, it's cleaner than the join tables we need in relational databases for this purpose. This will be based on the consumption pattern again.
 
-Different entities which are not related directly but are usually required together - may share some of the attributes can also be stored together, without embedding, by introducing an attribute that tells them apart allow them to be fetched separately or together. This is very relevant for entities which are different classes or type of the same entity e.g. a bank can store saving accounts and credit cards in the same customer_accounts collection for an Online Internet Banking portal where some of the attributes can be common and others can be different and a Type attribute can carry the information whether a specific document is a Credit card or a Savings account.
+### Storing multiple entities together
+Different entities which are not related directly but are usually required together - may share some of the attributes can also be stored together, without embedding, by introducing an attribute that tells them apart allow them to be fetched separately or together. 
 
-## Data integrity / consistency
-NoSQL database do not provide ACID transactions and the focus is on scaleablity more than data integrity. Not that data integrity is altogether ignored, its just that it takes a back seat in form of eventual consistency and priority of the system is to perform and scale and let the distribution engines ensure that EVENTUALLY the data is consistent all across.
+This is very relevant for entities which are different classes or type of the same entity e.g. a bank can store saving accounts and credit cards in the same customer_accounts collection for an Online Internet Banking portal where some of the attributes can be common and others can be different and a Type attribute can carry the information whether a specific document is a Credit card or a Savings account.
 
-Therefore it may not be suitable for all kind of systems and all type of data in a system. Systems which require realtime data integrity e.g. financial transactions should continue to store data in relational database for such data.
+### Changing schema
+Because there was no need to define the structure or attributes of an entities, it is inferred from the data that has been inserted/created. This also means that if you want to change it later - say specify a type to an attribute, its essentially re-writing the whole collection into a new one. so changes are expensive.
 
-## Events
+### Data integrity & data consistency
+NoSQL database do not provide ACID transactions and the focus is on scaleablity more than data integrity. Not that data integrity is altogether ignored, its just that it takes a back seat in form of eventual consistency and priority of the system is to perform and scale and let the distribution engines ensure that EVENTUALLY the data is consistent all across. Therefore it may not be suitable for all kind of systems and all type of data in a system. Systems which require realtime data consistency e.g. financial transactions should continue to store data in relational database for such data.
+
+For applications using NoSQL database, it also means that the applications need to account for data inconsistency as well as lack of referential integrity.
+
+These were some of the key aspects of moving to NoSQL from a data modelling and right-usage perspective. There is an operational aspect to this too as NoSQL database bring about a new paradigm of data distribution which in itself requires focus which has not been touched up on this one. For another time.
