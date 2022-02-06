@@ -9,7 +9,6 @@ description: "Anurag Setia's blog about technology and some..."
 
 header_pages:
   - about.md
-  - covid19.md
 show_excerpts: true
 
 google_analytics: G-J80TT227HM
