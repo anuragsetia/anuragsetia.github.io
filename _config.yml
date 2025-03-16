@@ -1,5 +1,6 @@
 plugins:
   - jekyll-include-cache
+  - jekyll-feed
 theme: minima
 
 site.title: Texploring
